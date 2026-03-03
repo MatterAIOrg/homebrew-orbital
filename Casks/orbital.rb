@@ -4,10 +4,13 @@ cask "orbital" do
 
   url "https://releases.matterai.so/Orbital-darwin-arm64-latest.dmg"
   name "Orbital"
-  desc "AI-powered code editor built on VS Code"
+  desc "Native AI Coding IDE powered by Axon models with OSS Harness Engine, Background Agents, and Cloud Agents."
   homepage "https://matterai.so"
 
   app "Orbital.app"
+
+  uninstall quit: "ai.matterai.orbital",
+            delete: "/Applications/Orbital.app"
 
   zap trash: [
     "~/.orbital",
