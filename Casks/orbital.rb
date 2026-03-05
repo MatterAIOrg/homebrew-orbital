@@ -1,6 +1,6 @@
 cask "orbital" do
-  version "0.6.9"
-  sha256 "46bff7433fbd9c56d1bc663db45254ffb9dd0b38b76b132618e00a0bab5b545b"
+  version "0.7.0"
+  sha256 "43ad35bc4d04c8da339c748c5313079565b6af5428949188794a1cf219ce9a23"
 
   url "https://releases.matterai.so/Orbital-darwin-arm64-latest.dmg"
   name "Orbital"
