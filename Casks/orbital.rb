@@ -1,10 +1,10 @@
 cask "orbital" do
-  version "0.7.3"
-  sha256 "d1b2ccbb95ef92c7d1bdecae3b5bb70d90594c33d2204770262177ec20596266"
+  version "0.7.4"
+  sha256 "cd279075e8e151e8fcc886542f0fad99990071abdcc2767ebfeede908d7d4dbc"
 
   url "https://releases.matterai.so/Orbital-darwin-arm64-latest.dmg"
   name "Orbital"
-  desc "Native AI Coding IDE powered by Axon models with OSS Harness Engine, Background Agents, and Cloud Agents."
+  desc "Orbital, by MatterAI. Build, debug, and review code with immense precision. Powered by Axon LLMs."
   homepage "https://matterai.so"
 
   app "Orbital.app"
